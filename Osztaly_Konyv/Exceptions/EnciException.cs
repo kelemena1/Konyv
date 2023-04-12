@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Osztaly_Konyv.Exceptions
 {
-    public class ISBN_NumberFormatException : Exception
+    internal class EnciException:Exception
     {
-        public ISBN_NumberFormatException()
+        public EnciException()
         {
-
+            
         }
+        public override string Message => $"Az enci mezőnek true vagy false értéknek kell lennie!";
 
-        public override string Message => "Az ISBN száma nem megfelelő!";
     }
 }

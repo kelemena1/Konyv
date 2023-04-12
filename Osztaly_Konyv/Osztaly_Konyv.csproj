@@ -58,9 +58,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exceptions\BookNameLengthException.cs" />
+    <Compile Include="Exceptions\BookInventoryNumberException.cs" />
+    <Compile Include="Exceptions\EbookException.cs" />
+    <Compile Include="Exceptions\EnciException.cs" />
+    <Compile Include="Exceptions\LanguageEmptyFieldException.cs" />
+    <Compile Include="Exceptions\YearOfPublicationException.cs" />
+    <Compile Include="Exceptions\TitleLengthException.cs" />
+    <Compile Include="Exceptions\WriterNameExceptions.cs" />
     <Compile Include="Exceptions\ISBN_NumberLengthException.cs" />
     <Compile Include="Exceptions\ISBN_NumberFormatException.cs" />
     <Compile Include="Konyv.cs" />
+    <Compile Include="KonyvesPolc.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
